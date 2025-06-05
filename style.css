@@ -106,3 +106,7 @@ footer {
   margin-bottom: 10px;
 }
 
+#interets ul li,
+#langues ul li {
+  margin-bottom: 8px;
+}
