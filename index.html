@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio de Gaëtan</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Étudiant - BUT Informatique</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Hi, I'm Gaëtan</h1>
-    <p>Passionné par la <span class="highlight">cybersécurité</span> et le <span class="highlight">développement logiciel</span>.</p>
-    <img src="avatar.png" alt="Avatar de Thomas" class="avatar">
+    <h1>Thomas Dupont</h1>
+    <p>Étudiant en BUT Informatique - Université Paris-Saclay</p>
   </header>
 
-  <section class="formations">
-    <h2>Formations</h2>
-    <div class="logos">
-      <img src="telecom.png" alt="Télécom SudParis">
-      <img src="ipparis.png" alt="IP Paris">
-      <img src="uqam.png" alt="UQAM">
-      <img src="upsaclay.png" alt="Université Paris-Saclay">
-    </div>
+  <nav>
+    <ul>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="presentation">
+    <h2>Présentation</h2>
+    <p>Je suis étudiant en 2ᵉ année de BUT Informatique à l’Université Paris-Saclay. Passionné par le développement web, l'intelligence artificielle et les systèmes embarqués, je cherche à enrichir mon expérience à travers des projets concrets.</p>
   </section>
 
-  <section class="experiences">
-    <h2>Mes expériences professionnelles</h2>
+  <section id="competences">
+    <h2>Compétences</h2>
     <ul>
-      <li>Enough! - Développement logiciel</li>
-      <li>ClearFID - Sécurité des données</li>
+      <li>Langages : Java, HTML/CSS, JavaScript, Python</li>
+      <li>Frameworks : React, Node.js, Flask</li>
+      <li>Base de données : MySQL, MongoDB</li>
+      <li>Outils : Git, Docker, VS Code</li>
     </ul>
   </section>
 
-  <section class="projects">
-    <h2>Mes projets</h2>
-    <div class="project-gallery">
-      <img src="projet1.jpg" alt="Projet 1">
-      <img src="projet2.jpg" alt="Projet 2">
-      <img src="projet3.jpg" alt="Projet 3">
+  <section id="projets">
+    <h2>Projets</h2>
+    <div class="projet">
+      <h3>Démineur en WPF (C#)</h3>
+      <p>Création d'un jeu interactif en C# avec interface WPF, gestion de grille dynamique et logique de jeu.</p>
+    </div>
+    <div class="projet">
+      <h3>Site de gestion de tâches</h3>
+      <p>Application web fullstack avec Node.js et MongoDB pour organiser ses projets personnels.</p>
     </div>
   </section>
 
-  <section class="video">
-    <h2>Présentation vidéo</h2>
-    <video controls width="600">
-      <source src="presentation.mp4" type="video/mp4">
-      Votre navigateur ne supporte pas la lecture vidéo.
-    </video>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:thomas.dupont@etu.u-psud.fr">thomas.dupont@etu.u-psud.fr</a></p>
+    <p>LinkedIn : <a href="https://www.linkedin.com/in/thomas-dupont">thomas-dupont</a></p>
+    <p>GitHub : <a href="https://github.com/thomas-dupont">thomas-dupont</a></p>
   </section>
 
-  <section class="contact">
-    <h2>Contacte-moi</h2>
-    <form>
-      <input type="text" placeholder="Nom">
-      <input type="email" placeholder="Email">
-      <textarea placeholder="Message..."></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
-  </section>
+  <footer>
+    <p>&copy; 2025 Thomas Dupont - Portfolio Étudiant</p>
+  </footer>
 </body>
 </html>
