@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Thomas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Je suis Thomas, passionné par l’IA et le développement web.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Mes projets</h2>
+      <ul>
+        <li><a href="https://github.com/tonpseudo/demineur">Démineur en WPF</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>Mail : thomas@email.com</p>
+    </section>
+  </main>
+</body>
+</html>
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 2rem;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #333;
+}
