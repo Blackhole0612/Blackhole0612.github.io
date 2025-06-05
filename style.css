@@ -1,25 +1,95 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 2rem;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
 }
 
 header {
-  background: #333;
-  color: white;
-  padding: 2rem;
   text-align: center;
+  padding: 40px 0;
 }
 
-main {
-  padding: 2rem;
-  background: white;
-  border-radius: 10px;
-  max-width: 800px;
-  margin: auto;
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: purple;
+  font-weight: bold;
+}
+
+section {
+  margin: 40px 0;
 }
 
 h2 {
-  color: #333;
+  color: #444;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
 }
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos img {
+  height: 80px;
+  object-fit: contain;
+}
+
+.experiences ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experiences li {
+  margin-bottom: 10px;
+}
+
+.project-gallery {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.project-gallery img {
+  height: 120px;
+  border-radius: 8px;
+}
+
+.video {
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+

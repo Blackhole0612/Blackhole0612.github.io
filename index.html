@@ -3,25 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio de Thomas</title>
+  <title>Portfolio de Gaëtan</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenue sur mon portfolio</h1>
-    <p>Je suis Thomas, passionné par l’IA et le développement web.</p>
+    <h1>Hi, I'm Gaëtan</h1>
+    <p>Passionné par la <span class="highlight">cybersécurité</span> et le <span class="highlight">développement logiciel</span>.</p>
+    <img src="avatar.png" alt="Avatar de Thomas" class="avatar">
   </header>
-  <main>
-    <section>
-      <h2>Mes projets</h2>
-      <ul>
-        <li><a href="https://github.com/tonpseudo/demineur">Démineur en WPF</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Contact</h2>
-      <p>Mail : thomas@email.com</p>
-    </section>
-  </main>
+
+  <section class="formations">
+    <h2>Formations</h2>
+    <div class="logos">
+      <img src="telecom.png" alt="Télécom SudParis">
+      <img src="ipparis.png" alt="IP Paris">
+      <img src="uqam.png" alt="UQAM">
+      <img src="upsaclay.png" alt="Université Paris-Saclay">
+    </div>
+  </section>
+
+  <section class="experiences">
+    <h2>Mes expériences professionnelles</h2>
+    <ul>
+      <li>Enough! - Développement logiciel</li>
+      <li>ClearFID - Sécurité des données</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Mes projets</h2>
+    <div class="project-gallery">
+      <img src="projet1.jpg" alt="Projet 1">
+      <img src="projet2.jpg" alt="Projet 2">
+      <img src="projet3.jpg" alt="Projet 3">
+    </div>
+  </section>
+
+  <section class="video">
+    <h2>Présentation vidéo</h2>
+    <video controls width="600">
+      <source src="presentation.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+  </section>
+
+  <section class="contact">
+    <h2>Contacte-moi</h2>
+    <form>
+      <input type="text" placeholder="Nom">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message..."></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
 </body>
 </html>
